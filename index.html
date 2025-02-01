@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <style>
+        .sora-font {
+            font-family: "Sora", serif;
+            font-optical-sizing: auto;
+
+        }
+    </style>
+</head>
+
+<body class="sora-font">
+    <!-- header section -->
+    <header class="bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF]">
+        <nav class="flex justify-between lg:justify-around items-center p-6 border-2 border-[#179800] lg:border-none">
+            <div><img class="hidden lg:block" src="c2-assets/logo-header.png" alt="">
+                <img class="lg:hidden" src=" c2-assets/Logo-for-Phone.png" alt="">
+            </div>
+            <div class="lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="green" class="size-8">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+
+            </div>
+            <div class="hidden lg:flex lg:space-x-6 text-gray-700 font-medium">
+                <a href="#" class="hover:text-green-500">Product</a>
+                <a href="#" class="hover:text-green-500">Services</a>
+                <a href="#" class="hover:text-green-500">Contact us</a>
+            </div>
+            <div class="hidden lg:flex items-center space-x-4">
+                <div class=" flex items-center space-x-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>
+                </div>
+
+                <button class="border border-gray-400 px-4 py-2 rounded-md">Login</button>
+                <button class="bg-[#179800] text-white px-4 py-2 rounded-md">Register</button>
+            </div>
+        </nav>
+        <div class="text-center mt-10 px-5 lg:text-center lg:px-70">
+            <h1 class=" text-[32px] lg:text-[56px] font-bold text-[#111111] ">
+                Freshness <span class="text-[#179800]">You Can <br> Count</span> On, Prices You’ll Love!
+            </h1>
+            <p class="text-[16px] mt-4 text-gray-600 lg:text-[20px] max-w-2xl mx-auto">
+                Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you
+                covered every day!
+            </p>
+            <div class="w-full flex justify-center"><img src="c2-assets/hero-vegetables.png" alt=""></div>
+        </div>
+    </header>
+</body>
+
+</html>
